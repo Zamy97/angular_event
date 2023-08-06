@@ -607,9 +607,7 @@
 @media screen{
   html:not(.no-js) [data-aos^=fade][data-aos^=fade]{
     opacity:0;
-    transition-property:opacity,-webkit-transform;
-    transition-property:opacity,transform;
-    transition-property:opacity,transform,-webkit-transform
+    transition-property:opacity, transform, -webkit-transform
   }
   html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate{
     opacity:1;
@@ -650,8 +648,6 @@
   }
   html:not(.no-js) [data-aos^=zoom][data-aos^=zoom]{
     opacity:0;
-    transition-property:opacity,-webkit-transform;
-    transition-property:opacity,transform;
     transition-property:opacity,transform,-webkit-transform
   }
   html:not(.no-js) [data-aos^=zoom][data-aos^=zoom].aos-animate{
@@ -701,7 +697,6 @@
   }
   html:not(.no-js) [data-aos^=slide][data-aos^=slide]{
     transition-property:-webkit-transform;
-    transition-property:transform;
     transition-property:transform,-webkit-transform;
     visibility:hidden
   }
@@ -730,7 +725,6 @@
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden;
     transition-property:-webkit-transform;
-    transition-property:transform;
     transition-property:transform,-webkit-transform
   }
   html:not(.no-js) [data-aos=flip-left]{
