@@ -1,10 +1,11 @@
 /**
-* Template Name: TheEvent
-* Updated: Jun 18 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+ * Template Name: TheEvent
+ * Updated: Jun 18 2023 with Bootstrap v5.3.0
+ * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+ * Author: BootstrapMade.com
+ * License: https://bootstrapmade.com/license/
+ */
+
 (function() {
   "use strict";
 
@@ -36,7 +37,7 @@
 
   /**
    * Easy on scroll event listener
-   *
+   */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
